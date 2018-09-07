@@ -32,6 +32,9 @@ const (
 	LBRACE = "{"
 	RBRACE = "}"
 
+	LT = "<"
+	GT = ">"
+
 	// Keyword
 	FUNCTION = "FUNCTION"
 	LET      = "LET"
