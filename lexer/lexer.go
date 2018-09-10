@@ -113,3 +113,11 @@ func (l *Lexer) skipWhitespace() {
 func isDigit(ch byte) bool {
 	return '0' <= ch && ch <= '9'
 }
+
+func (l *Lexer) peekChar() byte {
+	if l.readPosition >= len(l.input) {
+		return 0
+	} else {
+		return l.input[l.readPosition]
+	}
+}
