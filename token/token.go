@@ -35,6 +35,9 @@ const (
 	LT = "<"
 	GT = ">"
 
+	EQ     = "=="
+	NOT_EQ = "!="
+
 	// Keyword
 	FUNCTION = "FUNCTION"
 	LET      = "LET"
