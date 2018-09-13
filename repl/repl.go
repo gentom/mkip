@@ -3,7 +3,6 @@ package repl
 import (
 	"bufio"
 	"fmt"
-	"go/token"
 	"io"
 
 	"github.com/gentom/mkip/lexer"
